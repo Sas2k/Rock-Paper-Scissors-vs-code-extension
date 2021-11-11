@@ -20,6 +20,7 @@ def rock():
         vscode.window.show_info_message(f'You Won i chose {computer}')
     else:
         vscode.window.show_info_message(f'I Won i chose {computer}')
+    return f"player {p_i} computer {computer}"
 
 @Rock_Paper_Scissors.command()
 def paper():
@@ -31,6 +32,7 @@ def paper():
         vscode.window.show_info_message(f'You Won i chose {computer}')
     else:
         vscode.window.show_info_message(f'I Won i chose {computer}')
+    return f"player {p_i} computer {computer}"
 
 @Rock_Paper_Scissors.command()
 def scissors():
@@ -42,6 +44,7 @@ def scissors():
         vscode.window.show_info_message(f'You Won i chose {computer}')
     else:
         vscode.window.show_info_message(f'I Won i chose {computer}')
+    return f"player {p_i} computer {computer}"
 
 
 
