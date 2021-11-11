@@ -1,6 +1,14 @@
 {
   "name": "rockpaperscissors",
   "displayName": "Rock,Paper,Scissors",
+  "author": {
+    "name": "Sasen Perera"
+  },
+  "publisher": "SasenPerera",
+  "repository": {
+    "url": "https://github.com/Sas2k/Rock-Paper-Scissors-vs-code-extension"
+  },
+  "readme": "README.md",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.58.0"
